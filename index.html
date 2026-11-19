@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Session</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="timer" class="timer hidden" aria-live="polite">
+    <span class="timer-label">Time remaining</span>
+    <span id="timer-value" class="timer-value">60:00</span>
+  </div>
+
+  <main>
+    <section id="start-screen">
+      <article id="start-instructions" class="instructions"></article>
+
+      <div id="survey-panel" class="survey-panel">
+        <button id="get-first" class="btn primary">Get my first survey</button>
+
+        <div id="link-area" class="link-area hidden">
+          <p id="survey-count" class="survey-count"></p>
+          <a id="survey-link" class="survey-link" href="#" target="_blank" rel="noopener">Open survey</a>
+          <p id="link-hint" class="hint">Click the link above to open the survey in a new tab.</p>
+          <button id="next-survey" class="btn" disabled>I've finished this survey &mdash; Next survey</button>
+        </div>
+
+        <div id="all-done" class="all-done hidden"></div>
+      </div>
+    </section>
+
+    <section id="end-screen" class="hidden">
+      <article id="end-instructions" class="instructions"></article>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
