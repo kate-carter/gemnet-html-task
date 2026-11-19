@@ -11,7 +11,9 @@ A plain, offline HTML page for a one-hour survey session.
 
 ## Running a session
 
-Double-click `index.html` to open it in a browser. Or, if you'd rather use a local server:
+Double-click `index.html` to open it in a browser. (recommended)
+
+To open in a local server:
 
 ```
 cd gemnet-html-task
@@ -19,7 +21,7 @@ python3 -m http.server 8000      # on Windows: py -m http.server 8000
 # then open http://localhost:8000
 ```
 
-It works the same on Windows and macOS in any current browser (Edge, Chrome, Firefox, Safari). To move it to another computer, copy the whole folder. The four files must stay together.
+It works the same on Windows and macOS in any current browser (Edge, Chrome, Firefox, Safari) as of 11-19-2026.
 
 How a session works:
 
@@ -30,17 +32,17 @@ How a session works:
 
 If a participant finishes all 15 surveys early, they see a "completed all surveys" message, and the end instructions still appear when the timer runs out.
 
-## Researcher controls (via the address bar)
+## Researcher controls (type in address bar)
 
 | Add to the URL | Effect |
 |---|---|
 | `?export` | Downloads a CSV of the session: the order surveys were shown, and the time each was shown, opened, and moved past. |
-| `?reset`  | Clears the session (new shuffle, timer reset). **Do this between participants.** |
+| `?reset`  | Clears the session (new shuffle, timer reset). **Must do this between participants.** |
 
 Examples:
 
-- macOS: `file:///Users/Kate/gemnet-html-task/index.html?reset`
-- Windows: `file:///C:/Users/YourName/Desktop/gemnet-html-task/index.html?reset` (use wherever you copied the folder)
+- macOS: `file:///Users/Name/gemnet-html-task/index.html?reset`
+- Windows: `file:///C:/Users/Name/Desktop/gemnet-html-task/index.html?reset` (make sure link matches local file path)
 
 Progress is saved in the browser's local storage, so refreshing the page or closing the tab by accident does **not** reset the timer or reshuffle the surveys. The timer uses the real clock, so it stays accurate even while the participant is working in another tab.
 
