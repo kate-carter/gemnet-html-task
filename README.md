@@ -1,7 +1,7 @@
 # GemNet Sona Task 2
 
 A plain, offline HTML page for a one-hour survey session. 
-DISCLAIMER: This program was partially vibe-coded.  I (Kate) went through all of the code and tested it, everything seems fine, but JS is not my passion :(. Updated 11-19-2026.
+**DISCLAIMER: This program was partially vibe-coded.**  I (Kate) went through all of the code and tested it, everything seems fine, but JS is not my passion :(. Updated 11-19-2026.
 
 ## Setup
 
