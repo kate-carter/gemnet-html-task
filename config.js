@@ -22,7 +22,7 @@ window.STUDY_CONFIG = {
     { name: "Survey 09", url: "https://" }, // pear
     { name: "Survey 10", url: "https://" }, // plastic
     { name: "Survey 11", url: "https://" }, // potato
-    { name: "Survey 12", url: "https://u" }, // spice
+    { name: "Survey 12", url: "https://" }, // spice
     { name: "Survey 13", url: "https://" }, // spoon
     { name: "Survey 14", url: "https://" }, // stone
     { name: "Survey 15", url: "https://" }, // truck
