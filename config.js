@@ -11,26 +11,24 @@ window.STUDY_CONFIG = {
   // one at a time, never repeating. The "name" is optional and only used
   // in the exported log (it is NOT shown to participants).
   surveys: [
-    { name: "Survey 01", url: "https://binghamton.qualtrics.com/jfe/form/SV_3OEBzBHmWa8GBM2 " }, // bed
-    { name: "Survey 02", url: "https://binghamton.qualtrics.com/jfe/form/SV_88j09e5p5nZoLsO" }, // bread
-    { name: "Survey 03", url: "https://binghamton.qualtrics.com/jfe/form/SV_5tkMl7d6DExVhP0" }, // cake
-    { name: "Survey 04", url: "https://binghamton.qualtrics.com/jfe/form/SV_0wHtg2zJ9I7erZQ" }, // chair
-    { name: "Survey 05", url: "https://binghamton.qualtrics.com/jfe/form/SV_02sBELcovX7Dyaq" }, // computer
-    { name: "Survey 06", url: "https://binghamton.qualtrics.com/jfe/form/SV_6zg2nHK9xTzFRt4" }, // cup
-    { name: "Survey 07", url: "https://binghamton.qualtrics.com/jfe/form/SV_0xr7sJvcZ83UFym" }, // flower
-    { name: "Survey 08", url: "https://binghamton.qualtrics.com/jfe/form/SV_1RlaH0TtDZDmeJE" }, // lock
-    { name: "Survey 09", url: "https://binghamton.qualtrics.com/jfe/form/SV_6zLA015uQM0yd26" }, // pear
-    { name: "Survey 10", url: "https://binghamton.qualtrics.com/jfe/form/SV_ddsbtp4WPf2HgMu" }, // plastic
-    { name: "Survey 11", url: "https://binghamton.qualtrics.com/jfe/form/SV_cYoqLRMGr0aqnA2" }, // potato
-    { name: "Survey 12", url: "https://binghamton.qualtrics.com/jfe/form/SV_b9GZr5UX1XjtiQu" }, // spice
-    { name: "Survey 13", url: "https://binghamton.qualtrics.com/jfe/form/SV_8eLNzRqLgerFU2" }, // spoon
-    { name: "Survey 14", url: "https://binghamton.qualtrics.com/jfe/form/SV_eSfH6BJkFU1xngy" }, // stone
-    { name: "Survey 15", url: "https://binghamton.qualtrics.com/jfe/form/SV_73uj0jOAAShc9eK" }, // truck
+    { name: "Survey 01", url: "https://" }, // bed
+    { name: "Survey 02", url: "https://" }, // bread
+    { name: "Survey 03", url: "https://" }, // cake
+    { name: "Survey 04", url: "https://" }, // chair
+    { name: "Survey 05", url: "https://" }, // computer
+    { name: "Survey 06", url: "https://" }, // cup
+    { name: "Survey 07", url: "https://" }, // flower
+    { name: "Survey 08", url: "https://" }, // lock
+    { name: "Survey 09", url: "https://" }, // pear
+    { name: "Survey 10", url: "https://" }, // plastic
+    { name: "Survey 11", url: "https://" }, // potato
+    { name: "Survey 12", url: "https://u" }, // spice
+    { name: "Survey 13", url: "https://" }, // spoon
+    { name: "Survey 14", url: "https://" }, // stone
+    { name: "Survey 15", url: "https://" }, // truck
   ],
 
   // Instructions shown before the session starts (Markdown).
-  // Supported: # headings, **bold**, *italic*, [links](url), - lists,
-  // 1. numbered lists, > quotes, --- rules, and blank-line paragraphs.
   startInstructions: `
 # Welcome to the GemNet Task 2 Behavioral Task.
 
@@ -63,6 +61,6 @@ Please **close any survey tabs** that are still open and let the researcher know
   // before time runs out (Markdown). The timer keeps running; the end
   // instructions still appear when it reaches zero.
   allSurveysDoneMessage: `
-**You have completed all of the surveys.** Please remain seated and wait for the timer to finish.
+**You have completed all of the surveys.** Please let the researcher know you have completed the task.
 `,
 };
